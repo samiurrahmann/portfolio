@@ -178,7 +178,10 @@ footer input[type='text'], footer input[type='email'], footer textarea{
 @media screen and (max-width:576px) {
     .skills-contener ,
      .resume-container,
-     .about-items
+     .about-items,
+     nav,
+     .nav > ul,
+     .content
      
      {
         flex-direction: column;
@@ -198,5 +201,14 @@ footer input[type='text'], footer input[type='email'], footer textarea{
     }
     .about{
         padding: 20px;
+    }
+    .content{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-picture{
+        width: 100%;
     }
 }
